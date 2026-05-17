@@ -36,6 +36,42 @@ student = {
         "c++": 80
     }
     }
-print(student)
+"""print(student)
 print(student["subjects_Marks"])
 print(student["subjects_Marks"]["python"])
+
+print(list(student.keys()))
+print(list(student.values()))
+print(list(student.items()))
+print(list(student["subjects_Marks"].keys()))   
+print(list(student["subjects_Marks"].values()))
+print(list(student["subjects_Marks"].items()))
+print(len(student) )
+print(len(student["subjects_Marks"]))
+print(student.get("name   "))
+print(student.get("name", "Not Found"))"""
+"""print(student["name"])
+print(student.get("name"))"""
+
+
+"""student.update({"name": "Satyarth"})
+print(student.update({"Roll_Number": 24}))
+print(student)
+
+
+
+#store follwing wrod meaing in dictionary and print them
+dictt = {
+    "cat" : "A small animal",
+    "table" : ["A piece of furniture", "List of facts& figures"]
+}
+print(dictt)"""
+
+#wap to enter marks of 3 subjects from the user and store them in a dictionary and print the dictionary and start wirh an
+#  empty dictionary
+marks ={}
+marks["physics"] = input("enter phy marks : ")
+marks["chemistry"] = input("enter chem marks : ")
+marks["maths"] = input("enter maths marks : ")
+print(marks)
+
