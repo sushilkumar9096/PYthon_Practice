@@ -74,4 +74,3 @@ marks["physics"] = input("enter phy marks : ")
 marks["chemistry"] = input("enter chem marks : ")
 marks["maths"] = input("enter maths marks : ")
 print(marks)
-
